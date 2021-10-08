@@ -3,12 +3,12 @@
 
 reset();
 
-m = 10; #number of light nodes connected to each full node
+m = 50; #number of light nodes connected to each full node
 n = 100; #2D-RS code length
 s_min = 2; #minimum number of samples required by each light node
 s_max = 20; #maximum number of samples required by each light node
 s_step = 2; #difference between two adjacent tested values of s
-gamma_val = 0.5; #number of symbols required to decode
+gamma_val = 0.5; #ratio of symbols required to decode
 
 num_test = 10^4; #maximum number of protocol executions, for each tested value of s
 max_err = 100; #maximum number of adversary successes, for each tested value of s
