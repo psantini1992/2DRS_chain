@@ -1,5 +1,5 @@
 # 2DRS_chain
-Sage scripts; to execute a file_name.sage, run 
+Sage scripts; to execute file_name.sage, run 
 
 load('file_name.sage')
 
